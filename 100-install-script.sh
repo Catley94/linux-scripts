@@ -4,7 +4,7 @@ sudo pacman -S krita
 sudo pacman -S htop
 sudo pacman -S virtualbox
 sudo pacman -S virtualbox-host-dkms
-
+sudo pacman -S nodejs npm
 
 
 
