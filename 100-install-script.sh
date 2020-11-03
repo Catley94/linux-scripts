@@ -79,6 +79,9 @@ virtualbox
 nodejs
 npm
 yay
+plank
+firefox
+gparted
 )
 
 for name in "${ORList[@]}" ; do
@@ -96,10 +99,12 @@ done
 
 #yay -S lightdm-slick-greeter
 AURList=(
+pamac-aur
 postman-bin
 trello
 github-desktop-bin
 spotify-adblock-git
+timeshift
 )
 
 for name in "${AURList[@]}" ; do
