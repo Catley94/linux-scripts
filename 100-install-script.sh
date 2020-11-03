@@ -1,3 +1,4 @@
+#!/bin/bash
 #Official repos
 sudo pacman -S code
 sudo pacman -S krita
