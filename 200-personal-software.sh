@@ -84,6 +84,7 @@ gparted
 catfish
 baobab
 guake
+simplescreenrecorder
 )
 
 for name in "${ORList[@]}" ; do
