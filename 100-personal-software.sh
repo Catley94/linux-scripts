@@ -68,7 +68,7 @@ aur_install() {
 #
 ###############################################################################
 
-
+#plank
 ORList=(
 variety
 atom
@@ -79,9 +79,11 @@ virtualbox
 nodejs
 npm
 yay
-plank
 firefox
 gparted
+catfish
+baobab
+guake
 )
 
 for name in "${ORList[@]}" ; do
@@ -105,6 +107,7 @@ trello
 github-desktop-bin
 spotify-adblock-git
 timeshift
+hyper
 )
 
 for name in "${AURList[@]}" ; do
