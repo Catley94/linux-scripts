@@ -69,6 +69,7 @@ aur_install() {
 ###############################################################################
 
 #plank
+#arcolinux-meta-fun
 ORList=(
 variety
 atom
@@ -85,6 +86,10 @@ catfish
 baobab
 guake
 simplescreenrecorder
+wps-office
+ttf-wps-fonts
+wps-office-mime
+bashtop
 )
 
 for name in "${ORList[@]}" ; do
@@ -101,6 +106,7 @@ done
 
 
 #yay -S lightdm-slick-greeter
+#cava
 AURList=(
 pamac-aur
 postman-bin
