@@ -108,6 +108,7 @@ github-desktop-bin
 spotify-adblock-git
 timeshift
 hyper
+lastpass
 )
 
 for name in "${AURList[@]}" ; do
