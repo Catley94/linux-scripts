@@ -119,6 +119,7 @@ spotify-adblock-git
 timeshift
 hyper
 lastpass
+gnome-disk-utility
 )
 
 for name in "${AURList[@]}" ; do
