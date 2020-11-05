@@ -91,6 +91,7 @@ ttf-wps-fonts
 wps-office-mime
 bashtop
 gvfs
+cron
 )
 
 for name in "${ORList[@]}" ; do
