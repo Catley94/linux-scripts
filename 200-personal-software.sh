@@ -90,6 +90,7 @@ wps-office
 ttf-wps-fonts
 wps-office-mime
 bashtop
+gvfs
 )
 
 for name in "${ORList[@]}" ; do
@@ -123,8 +124,3 @@ for name in "${AURList[@]}" ; do
 	tput setaf 3;echo "Installing package nr.  "$count " " $name;tput sgr0;
 	aur_install $name
 done
-
-
-
-
-

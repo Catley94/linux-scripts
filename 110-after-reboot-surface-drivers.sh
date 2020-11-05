@@ -1,4 +1,5 @@
-Link: https://github.com/linux-surface/linux-surface
+#!/bin/bash
+# Link: https://github.com/linux-surface/linux-surface
 
 echo "Checking for any updates to packages"
 sudo pacman -Syyu --noconfirm
@@ -6,9 +7,9 @@ yay -Syu --noconfirm
 
 #You should install the proprietary firmware package of your distribution. This is usually called linux-firmware and is required for some of the functionality provided by this kernel (e.g. the touchscreen).
 
-sudo pacman -S --noconfirm --needed linux-firmware 
+sudo pacman -S --noconfirm --needed linux-firmware
 
-#You should install CPU microcode firmware for the latest CPU updates. 
+#You should install CPU microcode firmware for the latest CPU updates.
 #Intel processor
 sudo pacman -S --noconfirm --needed intel-ucode
 
@@ -23,5 +24,3 @@ sudo hwclock --systohc --localtime
 
 #Make sure that the iptsd service is running
 systemctl start iptsd.service
-
-
