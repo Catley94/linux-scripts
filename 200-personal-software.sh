@@ -92,6 +92,7 @@ wps-office-mime
 bashtop
 gvfs
 cron
+thunar-volman
 )
 
 for name in "${ORList[@]}" ; do
