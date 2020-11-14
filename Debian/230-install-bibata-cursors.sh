@@ -20,7 +20,7 @@ tar -xzvf Bibata-Original-Ice.tar.gz
 #echo "Copying all extracted tars to /usr/share/icons"
 #sudo cp -r Bibata-*-* /usr/share/icons
 
-echo "Copy all extracted tars to ~/.icons/
+echo "Copy all extracted tars to ~/.icons/"
 cp -r Bibata-Modern-Amber/ ~/.icons/Bibata-Modern-Amber/
 cp -r Bibata-Modern-Classic/ ~/.icons/Bibata-Modern-Classic/
 cp -r Bibata-Modern-Ice/ ~/.icons/Bibata-Modern-Ice/
@@ -31,4 +31,3 @@ cp -r Bibata-Original-Ice/ ~/.icons/Bibata-Original-Ice/
 gsettings set org.gnome.desktop.interface cursor-theme "$THEMENAME"
 
 read -p "You now have all Bibata cursors, please change under elementary tweaks"
-
