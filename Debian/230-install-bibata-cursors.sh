@@ -18,7 +18,7 @@ tar -xzvf Bibata-Original-Classic.tar.gz
 tar -xzvf Bibata-Original-Ice.tar.gz
 
 echo "Copying all extracted tars to /usr/share/icons"
-cp -r Bibata-*-* /usr/share/icons
+sudo cp -r Bibata-*-* /usr/share/icons
 
 read -p "You now have all Bibata cursors, please change under elementary tweaks"
 
