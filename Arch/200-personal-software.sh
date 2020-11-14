@@ -69,7 +69,7 @@ aur_install() {
 ###############################################################################
 
 #plank
-#arcolinux-meta-fun
+#arcolinux-meta-fun	
 ORList=(
 variety
 atom
