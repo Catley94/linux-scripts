@@ -15,6 +15,7 @@ sudo snap install snap-store
 #______________INSTALL________________#
 #######################################
 
+echo "Installing Visual Studio Code - Snap"
 sudo snap install code --classic
 
 
