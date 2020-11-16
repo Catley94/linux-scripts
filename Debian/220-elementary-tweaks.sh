@@ -19,5 +19,5 @@ sudo add-apt-repository -y ppa:philip.scott/elementary-tweaks
 #______________INSTALL________________#
 #######################################
 
-echo "Installing elementary-tweaks
+echo "Installing elementary-tweaks"
 sudo apt install -y elementary-tweaks

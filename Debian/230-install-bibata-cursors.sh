@@ -20,6 +20,8 @@ tar -xzvf Bibata-Original-Ice.tar.gz
 #echo "Copying all extracted tars to /usr/share/icons"
 #sudo cp -r Bibata-*-* /usr/share/icons
 
+mkdir ~/.icons
+
 echo "Copy all extracted tars to ~/.icons/"
 cp -r Bibata-Modern-Amber/ ~/.icons/Bibata-Modern-Amber/
 cp -r Bibata-Modern-Classic/ ~/.icons/Bibata-Modern-Classic/

@@ -8,10 +8,10 @@ After this, you can add the repository itself by running:
 echo "deb [arch=amd64] https://pkg.surfacelinux.com/debian release main" | sudo tee /etc/apt/sources.list.d/linux-surface.list
 
 #Then update your local package lists:
-sudo apt-get update
+sudo apt update
 
 echo "Installing linux-headers-surface, linux-image-surface, surface-ipts-firmware, libwacom-surface and iptsd"
-sudo apt-get install linux-headers-surface linux-image-surface surface-ipts-firmware libwacom-surface iptsd
+sudo apt install linux-headers-surface linux-image-surface surface-ipts-firmware libwacom-surface iptsd
 
 #enable the iptsd
 echo "Enabling iptsd at startup"

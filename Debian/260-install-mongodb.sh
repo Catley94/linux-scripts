@@ -10,7 +10,7 @@ echo "Updating packages..."
 sudo apt update
 
 echo "Installing Mongodb..."
-sudo apt-get install -y mongodb-org
+sudo apt install -y mongodb-org
 
 echo "Starting Mongodb..."
 systemctl start mongod
