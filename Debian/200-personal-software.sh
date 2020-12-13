@@ -61,6 +61,7 @@ nodejs
 git
 github-desktop
 spotify-client
+synaptic
 )
 
 for name in "${ElementaryOSList[@]}" ; do
