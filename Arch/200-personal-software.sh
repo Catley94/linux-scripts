@@ -70,6 +70,10 @@ aur_install() {
 
 #plank
 #arcolinux-meta-fun	
+#catfish
+#baobab
+#guake
+#thunar-volman
 ORList=(
 variety
 atom
@@ -82,9 +86,6 @@ npm
 yay
 firefox
 gparted
-catfish
-baobab
-guake
 simplescreenrecorder
 wps-office
 ttf-wps-fonts
@@ -92,7 +93,6 @@ wps-office-mime
 bashtop
 gvfs
 cron
-thunar-volman
 )
 
 for name in "${ORList[@]}" ; do
@@ -115,11 +115,10 @@ pamac-aur
 postman-bin
 trello
 github-desktop-bin
-spotify-adblock-git
 timeshift
-hyper
 lastpass
 gnome-disk-utility
+spotify
 )
 
 for name in "${AURList[@]}" ; do
