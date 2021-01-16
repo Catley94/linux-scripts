@@ -87,12 +87,12 @@ yay
 firefox
 gparted
 simplescreenrecorder
-wps-office
-ttf-wps-fonts
-wps-office-mime
 bashtop
 gvfs
 cron
+virt-manager
+qemu
+libvirt
 )
 
 for name in "${ORList[@]}" ; do
@@ -111,13 +111,12 @@ done
 #yay -S lightdm-slick-greeter
 #cava
 AURList=(
-pamac-aur
+pamac-all
 postman-bin
 trello
 github-desktop-bin
 timeshift
 lastpass
-gnome-disk-utility
 spotify
 )
 
