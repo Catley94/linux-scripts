@@ -11,10 +11,9 @@ sudo pacman-key --finger 56C464BAAC421453
 sudo pacman-key --lsign-key 56C464BAAC421453
 
 #You can now add the repository by editing /etc/pacman.conf and adding at the end of the file.
-read -p "Copy the next line, press enter..."
-read -p "[linux-surface]
-Server = https://pkg.surfacelinux.com/arch/"
-sudo nano /etc/pacman.conf
+read -p "Adding linux-surface repo"
+echo "[linux-surface]" >> /etc/pacman.conf
+echo "Server = https://pkg.surfacelinux.com/arch/" >> /etc/pacman.conf
 
 echo "Checking for any updates to packages"
 sudo pacman -Syyu --noconfirm
