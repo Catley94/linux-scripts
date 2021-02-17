@@ -76,23 +76,25 @@ aur_install() {
 #thunar-volman
 ORList=(
 variety
-atom
-code
 krita
 htop
-virtualbox
 nodejs
 npm
-yay
-firefox
 gparted
 simplescreenrecorder
-bashtop
 gvfs
 cron
 virt-manager
 qemu
 libvirt
+meld
+discord
+flameshot
+nomacs
+chromium
+qbittorrent
+vlc
+dconf-editor
 )
 
 for name in "${ORList[@]}" ; do
@@ -115,7 +117,6 @@ pamac-all
 postman-bin
 trello
 github-desktop-bin
-timeshift
 lastpass
 spotify
 )
