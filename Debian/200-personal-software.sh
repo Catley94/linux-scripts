@@ -5,11 +5,11 @@
 #######################################
 
 echo "Adding NodeSource PPA for Nodejs"
-curl -sL https://deb.nodesource.com/setup_14.x | sudo -E bash -
+curl -sL https://deb.nodesource.com/setup_15.x | sudo -E bash -
 
 echo "Adding shiftkey PPA for Github Desktop"
-wget -qO - https://packagecloud.io/shiftkey/desktop/gpgkey | sudo tee /etc/apt/trusted.gpg.d/shiftkey-desktop.asc > /dev/null
-sudo sh -c 'echo "deb [arch=amd64] https://packagecloud.io/shiftkey/desktop/any/ any main" > /etc/apt/sources.list.d/packagecloud-shiftky-desktop.list'
+#wget -qO - https://packagecloud.io/shiftkey/desktop/gpgkey | sudo tee /etc/apt/trusted.gpg.d/shiftkey-desktop.asc > /dev/null
+#sudo sh -c 'echo "deb [arch=amd64] https://packagecloud.io/shiftkey/desktop/any/ any main" > /etc/apt/sources.list.d/packagecloud-shiftky-desktop.list'
 
 echo "Installing GPG Key and adding repo"
 curl -sS https://download.spotify.com/debian/pubkey_0D811D58.gpg | sudo apt-key add - 
@@ -56,12 +56,16 @@ sudo apt update
 
 ElementaryOSList=(
 krita
-virtualbox
-nodejs
+#virtualbox
+node
+npm
 git
-github-desktop
+#github-desktop
 spotify-client
 synaptic
+gnome-boxes
+simplescreenrecorder
+discord
 )
 
 for name in "${ElementaryOSList[@]}" ; do
