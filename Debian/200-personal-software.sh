@@ -61,7 +61,7 @@ node
 npm
 git
 #github-desktop
-spotify-client
+#spotify-client
 synaptic
 gnome-boxes
 simplescreenrecorder

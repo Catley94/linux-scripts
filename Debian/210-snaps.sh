@@ -18,5 +18,7 @@ sudo snap install snap-store
 echo "Installing Visual Studio Code - Snap"
 sudo snap install code --classic
 sudo snap install postman 
-
+sudo snap install discord
+sudo snap install pick-colour-picker
+sudo snap install spotify
 
