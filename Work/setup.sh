@@ -1,3 +1,4 @@
+cp shortcuts/* ~/Desktop
 sudo dpkg -i teams_1.4.00.4855_amd64.deb
 sudo apt install krita
 sudo apt install kmail
