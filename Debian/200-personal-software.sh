@@ -55,6 +55,7 @@ sudo apt update
 #atom
 
 ElementaryOSList=(
+variety
 krita
 #virtualbox
 node
