@@ -1,0 +1,28 @@
+KDE:
+
+*Unable to change grub theme*
+1. Install the theme that you wish to use in /boot/grub/themes/
+2. Go to /etc/default/grub.d/
+3. Check there is a 99_breeze-grub.cfg file
+4. In that file you will find the theme.txt file it's pointing to for the new theme.
+5. Change the location path, the default for Breeze is:
+    GRUB_THEME=/boot/grub/themes/breeze/theme.txt
+6. Change to the correct theme where it says <themefolder>
+    GRUB_THEME=/boot/grub/themes/<themefolder>/theme.txt
+
+
+*SDDM Theme doesn't look correct*
+**Aspects of the theme are off**
+1. Go to /usr/share/sddm/themes/ where your sddm themes live
+2. Go into the theme you wish to change
+3. Now you need to find where in the theme that component is stored, my first choice would be to look in theme.conf, then theme.conf.user, then any of the *.qml files in that folder which relate, after, check components/
+
+**Enable HiDPI**
+https://wiki.archlinux.org/title/SDDM#Enable_HiDPI
+
+
+*Lock screen*
+** Does not look the same as sddm theme **
+SDDM theme and locking screen (meta + L) are different components made to look the same. Locking screen is themed by Global theme.
+User installed Global themes are installed ~/.local/share/plasma/look-and-feel/<theme name>/contents/lockscreen
+
