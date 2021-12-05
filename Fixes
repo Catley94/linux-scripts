@@ -28,3 +28,6 @@ https://wiki.archlinux.org/title/SDDM#Enable_HiDPI
 SDDM theme and locking screen (meta + L) are different components made to look the same. Locking screen is themed by Global theme.
 User installed Global themes are installed ~/.local/share/plasma/look-and-feel/<theme name>/contents/lockscreen
 
+Linux-Surface
+*Touchscreen, Pen, Shutdown and Reboot not working*
+Add intel_iommu=off to GRUB_CMDLINE_LINUX_DEFAULT in /etc/default/grub
