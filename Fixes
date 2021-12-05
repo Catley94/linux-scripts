@@ -1,5 +1,7 @@
 KDE:
 
+Booting 
+GRUB_CMDLINE_LINUX_DEFAULT is in /etc/default/grub (Open with nano)
 *Unable to change grub theme*
 1. Install the theme that you wish to use in /boot/grub/themes/
 2. Go to /etc/default/grub.d/
