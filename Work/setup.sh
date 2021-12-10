@@ -8,7 +8,7 @@ sudo apt install kmail
 snap install discord
 snap install code --classic
 snap install spotify
-sudo dpkg -i GitHubDesktop-linux-2.6.2-linux1.deb
+# sudo dpkg -i GitHubDesktop-linux-2.6.2-linux1.deb
 #Adding support for Connectwise executables .jnlp
 sudo apt update
 sudo apt install default-jdk
