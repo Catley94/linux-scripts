@@ -7,13 +7,13 @@
 echo "Adding NodeSource PPA for Nodejs"
 curl -sL https://deb.nodesource.com/setup_15.x | sudo -E bash -
 
-echo "Adding shiftkey PPA for Github Desktop"
+#echo "Adding shiftkey PPA for Github Desktop"
 #wget -qO - https://packagecloud.io/shiftkey/desktop/gpgkey | sudo tee /etc/apt/trusted.gpg.d/shiftkey-desktop.asc > /dev/null
 #sudo sh -c 'echo "deb [arch=amd64] https://packagecloud.io/shiftkey/desktop/any/ any main" > /etc/apt/sources.list.d/packagecloud-shiftky-desktop.list'
 
-echo "Installing GPG Key and adding repo"
-curl -sS https://download.spotify.com/debian/pubkey_0D811D58.gpg | sudo apt-key add - 
-echo "deb http://repository.spotify.com stable non-free" | sudo tee /etc/apt/sources.list.d/spotify.list
+#echo "Installing GPG Key and adding repo"
+#curl -sS https://download.spotify.com/debian/pubkey_0D811D58.gpg | sudo apt-key add - 
+#echo "deb http://repository.spotify.com stable non-free" | sudo tee /etc/apt/sources.list.d/spotify.list
 
 echo "Updating packages"
 sudo apt update
@@ -66,7 +66,6 @@ git
 synaptic
 gnome-boxes
 simplescreenrecorder
-discord
 )
 
 for name in "${ElementaryOSList[@]}" ; do
