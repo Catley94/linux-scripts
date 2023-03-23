@@ -22,6 +22,7 @@ sudo dnf install -y fira-code-fonts 'mozilla-fira*' 'google-roboto*'
 sudo dnf install -y steam
 sudo dnf install -y vlc
 sudo dnf install fedora-workstation-repositories
+sudo dnf install openssl1.1
 flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
 flatpak update
 flatpak install flathub com.bitwarden.desktop
