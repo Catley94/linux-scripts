@@ -5,3 +5,4 @@ Exec=prime-run unityhub %U
 Terminal=false
 Type=Application
 Categories=Development;
+Icon=unityhub

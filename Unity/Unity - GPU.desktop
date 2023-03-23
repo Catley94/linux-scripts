@@ -1,0 +1,8 @@
+[Desktop Entry] 
+Name=Unity - GPU
+Comment=
+Exec=__NV_PRIME_RENDER_OFFLOAD=1 __GLX_VENDOR_LIBRARY_NAME=nvidia unityhub
+Terminal=false
+Type=Application
+Categories=Development;
+Icon=unityhub
