@@ -1,0 +1,7 @@
+Install Chrome / Firefox Gnome Shell Extensions
+Install gnome-browser-connector
+https://wiki.gnome.org/Projects/GnomeShellIntegration/Installation
+
+
+INSTALL THEMES
+Go to github of project, follow instructions.
