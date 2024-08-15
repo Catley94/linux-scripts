@@ -1,0 +1,3 @@
+arch_apps = ["godot", "spotify", "timeshift", "discord"]
+aur_apps = ["github-desktop", "jetbrains-toolbox", "spotify", "google-chrome", "lmstudio-appimage", "unreal-engine", "unreal-engine-4"]
+
