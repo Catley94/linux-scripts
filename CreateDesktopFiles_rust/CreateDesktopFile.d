@@ -1,0 +1,1 @@
+/home/catley/RustroverProjects/CreateDesktopFile/target/release/CreateDesktopFile: /home/catley/RustroverProjects/CreateDesktopFile/src/desktop_entry.rs /home/catley/RustroverProjects/CreateDesktopFile/src/main.rs /home/catley/RustroverProjects/CreateDesktopFile/src/user_details.rs
